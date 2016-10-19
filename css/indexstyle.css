@@ -6,6 +6,7 @@
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
 }
 
 
@@ -44,3 +45,51 @@ nav{
   	color: #cae8cb;
 
  } 	
+
+	
+/*<!-- CONT ***************************-->*/
+
+img{
+
+	padding-top: 60px;
+	display:block;
+    margin:auto;
+}
+
+.section{
+	text-align: center;
+	background-color: #cae8cb;
+	padding: 80px;
+}
+
+.section p{
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+button {
+	margin-top: 40px;
+	border: 2px solid #aba9a8;
+    padding: 15px 25px;
+    background: #aba9a8;
+    width: 250px;
+    border-radius: 45px;
+    color: white;
+}
+
+
+/*<!-- text section ***************************-->*/
+.column{
+	max-width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.column p{
+	color: #848484;
+
+}
+
