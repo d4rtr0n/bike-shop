@@ -40,6 +40,7 @@ ul li a:hover{
 }
 
 .fixed-block-logo img {
+	position: fixed;
 	max-width: 150px;
 }
 
@@ -87,7 +88,7 @@ ul li a:hover{
 	width: 350px;
 	height: 225px;
 	position: absolute;
-	left: 150px;
+	left: 200px;
 	padding-top: 200px;
 	padding-right: 100px;
 	top: 75px;
@@ -96,8 +97,8 @@ ul li a:hover{
 	width: 350px;
 	height: 225px;
 	position: absolute;
-	left: 150px;
-	padding-top: 200px;
+	left: 200px;
+	padding-top: 625px;
 	padding-right: 100px;
 	top: 75px;
 }
@@ -106,7 +107,7 @@ ul li a:hover{
 	height: 225px;
 	position: absolute;
 	left: 150px;
-	padding-top: 200px;
+	padding-top: 1050px;
 	padding-right: 100px;
 	top: 75px;
 }
