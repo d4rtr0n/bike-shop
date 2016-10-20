@@ -83,12 +83,32 @@ ul li a:hover{
 	margin: 0 auto;
 }
 
-.picoverlay img {
+.picoverlay1 img {
 	width: 350px;
 	height: 225px;
 	position: absolute;
-	left: -75px;
-	top: -75px;
+	left: 150px;
+	padding-top: 200px;
+	padding-right: 100px;
+	top: 75px;
+}
+.picoverlay2 img {
+	width: 350px;
+	height: 225px;
+	position: absolute;
+	left: 150px;
+	padding-top: 200px;
+	padding-right: 100px;
+	top: 75px;
+}
+.picoverlay3 img {
+	width: 350px;
+	height: 225px;
+	position: absolute;
+	left: 150px;
+	padding-top: 200px;
+	padding-right: 100px;
+	top: 75px;
 }
 
 /*used empty divs to fix my spacing problem*/
