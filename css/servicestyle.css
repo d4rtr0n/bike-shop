@@ -48,11 +48,13 @@ ul li a:hover{
 
 /*content*/
 
+/*contentwrapper will ensure that everything is centered on the page*/
 #content-wrapper{
 	width: 1200px;
 	margin: 0 auto;
 }
 
+/*picoverlay is meant to create divs to have the image placement at the top left of a green text box, off by 20px*/
 .picoverlay {
 	text-indent: 0.5in;
 	border-radius:3px;
@@ -64,7 +66,83 @@ ul li a:hover{
 }
 
 .picoverlay img {
+	width: 500px;
+	height: 350px;
 	position: absolute;
-	left: -8px;
-	top: -12px;
+	left: -100px;
+	top: -100px;
 }
+
+/*footer*/
+
+.footer{
+	background-color:#30303a;
+	display:block;
+	margin:0 auto;
+}
+
+.column-footer2 img{
+	max-width: 150px;
+	display:block;
+	margin:auto;
+}
+
+.column-footer{
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.column-footer1{
+	width: 30%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: right;
+	padding-top: 40px;
+}
+
+.column-footer2{
+	width: 30%;
+	float: left;
+	padding-top: 21px;
+	padding-bottom: 20px;
+	margin:auto;
+}
+
+.column-footer3{
+	width: 30%;
+	float: left;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	text-align: right;
+	color: white;
+	text-align: left;
+	border-left: solid 3px #cae8cb;
+	margin-top: 50px;
+}
+
+.column-footer p{
+	padding-top: 30px;
+	border-left: solid 3px #cae8cb;
+}
+
+.column-footer1 a{
+	color: white;
+ 	text-decoration: none;
+}
+.column-footer1 a:hover{
+	color: #cae8cb;
+ 	text-decoration: none;
+}
+
+.section-footer{
+	background-color: #30303a;
+	padding-bottom: 200px;
+	display:block;
+	margin:auto;
+}
+
+
