@@ -1,6 +1,6 @@
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -54,14 +54,16 @@ ul li a:hover{
 	margin: 0 auto;
 }
 
-/*picoverlay is meant to create divs to have the image placement at the top left of a green text box, off by 20px*/
+/*picoverlay is meant to create divs to have the image placement offset at the top left of a green text box, having a hard time perfecting this*/
 .picoverlay {
-	text-indent: 0.5in;
+	display:inline-block;
+  margin:auto;
 	border-radius:3px;
 	background-color: #cae8cb;
 	height: 300px;
 	font-size: 40px;
-	padding: 20px;
+	padding-top: 50px;
+	padding-left: 450px;
 	position: relative;
 }
 
@@ -71,6 +73,14 @@ ul li a:hover{
 	position: absolute;
 	left: -100px;
 	top: -100px;
+}
+
+.empty-space-top {
+	padding: 200px;
+}
+
+.empty-space {
+	padding: 100px;
 }
 
 /*footer*/
