@@ -4,8 +4,7 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-/*navbar*/
+/* ----navbar---- */
 
 nav{
 	padding: 20px;
@@ -46,9 +45,9 @@ ul li a:hover{
 }
 
 
-/*content*/
+/* ----content---- */
 
-/*contentwrapper will ensure that everything is centered on the page*/
+/*contentwrapper will ensure that everything is centered on the page, working on other page but not on service page, can't figure out why ????*/
 #content-wrapper{
 	width: 1200px;
 	margin: 0 auto;
@@ -57,33 +56,32 @@ ul li a:hover{
 /*picoverlay is meant to create divs to have the image placement offset at the top left of a green text box, having a hard time perfecting this*/
 .picoverlay {
 	display:inline-block;
-  margin:auto;
-	border-radius:3px;
+ 	padding-top: 50px;
+	padding-left: 300px;
+	padding-right: 50px;
+	padding-bottom: 150px;
 	background-color: #cae8cb;
-	height: 300px;
-	font-size: 40px;
-	padding-top: 50px;
-	padding-left: 450px;
 	position: relative;
 }
 
 .picoverlay img {
-	width: 500px;
-	height: 350px;
+	width: 350px;
+	height: 225px;
 	position: absolute;
-	left: -100px;
-	top: -100px;
+	left: -75px;
+	top: -75px;
 }
 
+/*used empty divs to fix my spacing problem*/
 .empty-space-top {
-	padding: 200px;
+	padding: 150px;
 }
 
 .empty-space {
 	padding: 100px;
 }
 
-/*footer*/
+/* ----footer---- */
 
 .footer{
 	background-color:#30303a;
