@@ -4,6 +4,9 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/*navbar*/
+
 nav{
 	padding: 20px;
 	background-color: #30303a;
@@ -31,6 +34,19 @@ ul li a{
 ul li a:hover{
 	color: #cae8cb;
 } 	
+
+.fixed-block-logo {
+	position: fixed;
+	top: 20px;
+	left: 80px;
+}
+
+.fixed-block-logo img {
+	max-width: 150px;
+}
+
+
+/*content*/
 
 #content-wrapper{
 	width: 1200px;
