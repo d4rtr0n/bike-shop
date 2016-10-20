@@ -53,14 +53,34 @@ ul li a:hover{
 }
 
 /*picoverlay is meant to create divs to have the image placement offset at the top left of a green text box, having a hard time perfecting this*/
-.picoverlay {
-	display:inline-block;
+.picoverlay1 {
  	padding-top: 50px;
 	padding-left: 300px;
 	padding-right: 50px;
 	padding-bottom: 150px;
 	background-color: #cae8cb;
-	position: relative;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.picoverlay2 {
+ 	padding-top: 50px;
+	padding-left: 300px;
+	padding-right: 50px;
+	padding-bottom: 150px;
+	background-color: #cae8cb;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.picoverlay3 {
+ 	padding-top: 50px;
+	padding-left: 300px;
+	padding-right: 50px;
+	padding-bottom: 150px;
+	background-color: #cae8cb;
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 .picoverlay img {
